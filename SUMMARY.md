@@ -9,5 +9,5 @@
     * Linux
     
 # Summary
-* [常见错误](README.md)   
+* 常见错误
     * [element-ui升级到2.7.0以上出现的问题](./qa/element-ui升级需要对jsx支持.md)
