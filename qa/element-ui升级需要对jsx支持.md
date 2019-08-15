@@ -13,16 +13,16 @@ Syntax Error: Unexpected token (23:14)
   26 |     } else {
  @ ./~/.2.11.1@element-ui/packages/form/src/label-wrap.vue 4:2-108
 ```
-解决方案：添加对jsx语法的支持
+  
+解决方案：添加对jsx语法的支持，步骤如下：
 1. 安装jsx依赖
 ```
 cnpm install  babel-plugin-syntax-jsx  babel-plugin-transform-vue-jsx  babel-helper-vue-jsx-merge-props  babel-preset-env  --save-dev
 ```
-2. 在.babelrc中添加对jsx插件的配置
-```
+  
+2. 在.babelrc中添加对jsx插件的配置  
+```json
 {
   "plugins": ["transform-vue-jsx"]
 }
-
 ```
-
