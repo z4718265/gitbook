@@ -19,7 +19,7 @@ Syntax Error: Unexpected token (23:14)
 cnpm install  babel-plugin-syntax-jsx  babel-plugin-transform-vue-jsx  babel-helper-vue-jsx-merge-props  babel-preset-env  --save-dev
 ```
 2. 在.babelrc中添加对jsx插件的配置
-```json
+```
 {
   "plugins": ["transform-vue-jsx"]
 }
