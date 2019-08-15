@@ -21,9 +21,7 @@ cnpm install  babel-plugin-syntax-jsx  babel-plugin-transform-vue-jsx  babel-hel
 2. 在.babelrc中添加对jsx插件的配置
 ```json
 {
-  ...
-  "plugins": ["transform-vue-jsx", ...]
-  ...
+  "plugins": ["transform-vue-jsx"]
 }
 
 ```
